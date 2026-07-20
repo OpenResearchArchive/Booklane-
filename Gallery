@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Gallery — Booklane RYK</title>
+<meta name="description" content="Photos from Booklane RYK's book lanes, reading circles and community projects in Rahim Yar Khan.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@500;600;700&family=Work+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap header-row">
+    <a href="index.html" class="brand">
+      <span class="mark"><span>Booklane</span> RYK</span>
+      <span class="sub">Rahim Yar Khan · Reading Initiative</span>
+    </a>
+    <button class="nav-toggle" aria-expanded="false" aria-label="Toggle navigation">☰</button>
+    <ul class="shelf">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="mission.html">Mission</a></li>
+      <li><a href="donate.html">Donate</a></li>
+      <li><a href="submit.html">Write&nbsp;With&nbsp;Us</a></li>
+      <li><a href="gallery.html" class="active">Gallery</a></li>
+    </ul>
+  </div>
+</header>
+
+<main>
+
+  <section style="padding-top:64px;">
+    <div class="wrap">
+      <p class="eyebrow">Gallery</p>
+      <h1>What the lanes look like.</h1>
+      <p class="lede">A running album from our book lanes, reading circles and build days. Tap any photo to view it larger.</p>
+      <p class="form-note" style="margin-top:10px;">Placeholder photos shown below — replace the image files in this folder with real photos from your lanes whenever you're ready.</p>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <div class="gallery-grid">
+
+        <div class="gallery-item">
+          <img src="https://picsum.photos/seed/booklane-01/640/480" alt="A wooden book lane box freshly stocked with donated books">
+          <div class="gallery-cap">Book lane no. 6 — restocked this week</div>
+        </div>
+
+        <div class="gallery-item">
+          <img src="https://picsum.photos/seed/booklane-02/640/480" alt="Students sitting in a circle reading together in a courtyard">
+          <div class="gallery-cap">Saturday reading circle, Model Town</div>
+        </div>
+
+        <div class="gallery-item">
+          <img src="https://picsum.photos/seed/booklane-03/640/480" alt="Volunteers building a new book lane box out of wood">
+          <div class="gallery-cap">Build day for lane no. 15</div>
+        </div>
+
+        <div class="gallery-item">
+          <img src="https://picsum.photos/seed/booklane-04/640/480" alt="A young reader picking a book from a street book lane">
+          <div class="gallery-cap">First pick of the day, Shahi Road lane</div>
+        </div>
+
+        <div class="gallery-item">
+          <img src="https://picsum.photos/seed/booklane-05/640/480" alt="Students writing in notebooks during a workshop">
+          <div class="gallery-cap">Essay writing workshop, Govt. Girls College</div>
+        </div>
+
+        <div class="gallery-item">
+          <img src="https://picsum.photos/seed/booklane-06/640/480" alt="A shopkeeper standing beside the book lane box outside his shop">
+          <div class="gallery-cap">Our host at the Eid Gah Road lane</div>
+        </div>
+
+        <div class="gallery-item">
+          <img src="https://picsum.photos/seed/booklane-07/640/480" alt="Piles of donated books ready for sorting">
+          <div class="gallery-cap">Book donation drive, sorting day</div>
+        </div>
+
+        <div class="gallery-item">
+          <img src="https://picsum.photos/seed/booklane-08/640/480" alt="A hand-painted sign for one of the book lanes">
+          <div class="gallery-cap">Hand-painted sign, lane no. 3</div>
+        </div>
+
+        <div class="gallery-item">
+          <img src="https://picsum.photos/seed/booklane-09/640/480" alt="Volunteers gathered at a monthly meet-up">
+          <div class="gallery-cap">Monthly volunteer meet-up</div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="section-ink">
+    <div class="wrap" style="text-align:center;">
+      <p class="eyebrow">Have a photo to add?</p>
+      <h2>Send us pictures from your own lane visit.</h2>
+      <div style="margin-top:20px;">
+        <a href="mailto:hello@booklaneryk.org" class="btn btn-marigold">Email a Photo</a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<div class="lightbox">
+  <button class="lightbox-close" aria-label="Close">✕</button>
+  <div>
+    <img src="" alt="">
+    <p class="lightbox-cap"></p>
+  </div>
+</div>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="foot-grid">
+      <div>
+        <h4>Booklane RYK</h4>
+        <p style="max-width:32ch;color:rgba(241,233,216,.75);">A volunteer reading initiative building free book lanes and publishing student writing across Rahim Yar Khan.</p>
+      </div>
+      <div>
+        <h4>Explore</h4>
+        <ul>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="mission.html">Our Mission</a></li>
+          <li><a href="gallery.html">Project Gallery</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Take Part</h4>
+        <ul>
+          <li><a href="submit.html">Submit an Essay</a></li>
+          <li><a href="donate.html">Donate</a></li>
+          <li><a href="mailto:hello@booklaneryk.org">hello@booklaneryk.org</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <span>© 2026 Booklane RYK</span>
+      <span>Rahim Yar Khan, Punjab, Pakistan</span>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
