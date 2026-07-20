@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Donate — Booklane RYK</title>
+<meta name="description" content="Support Booklane RYK — fund a book lane, donate books, or volunteer your time in Rahim Yar Khan.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@500;600;700&family=Work+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap header-row">
+    <a href="index.html" class="brand">
+      <span class="mark"><span>Booklane</span> RYK</span>
+      <span class="sub">Rahim Yar Khan · Reading Initiative</span>
+    </a>
+    <button class="nav-toggle" aria-expanded="false" aria-label="Toggle navigation">☰</button>
+    <ul class="shelf">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="mission.html">Mission</a></li>
+      <li><a href="donate.html" class="active">Donate</a></li>
+      <li><a href="submit.html">Write&nbsp;With&nbsp;Us</a></li>
+      <li><a href="gallery.html">Gallery</a></li>
+    </ul>
+  </div>
+</header>
+
+<main>
+
+  <section style="padding-top:64px;">
+    <div class="wrap">
+      <p class="eyebrow">Donate</p>
+      <h1>₨500 restocks a lane. ₨15,000 builds a new one.</h1>
+      <p class="lede">Booklane RYK runs entirely on small donations, second-hand books, and volunteer hours. Every rupee is tracked against a specific lane, so you can see exactly what it went toward.</p>
+    </div>
+  </section>
+
+  <section class="section-alt">
+    <div class="wrap">
+      <div class="grid grid-3">
+        <div class="card raised">
+          <p class="callnumber">TIER 01</p>
+          <h3 style="margin-top:10px;">₨500</h3>
+          <p>Restocks one book lane with 15–20 fresh titles for a month.</p>
+        </div>
+        <div class="card raised">
+          <p class="callnumber">TIER 02</p>
+          <h3 style="margin-top:10px;">₨3,000</h3>
+          <p>Covers a term of printing and binding for the student writing desk.</p>
+        </div>
+        <div class="card raised">
+          <p class="callnumber">TIER 03</p>
+          <h3 style="margin-top:10px;">₨15,000</h3>
+          <p>Builds and installs one new weatherproof book lane, start to finish.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap" style="display:grid;grid-template-columns:1fr 1fr;gap:48px;align-items:start;">
+
+      <div>
+        <p class="eyebrow">Pledge a donation</p>
+        <h2>Tell us you're in.</h2>
+        <p class="lede">This form doesn't process a live payment yet — send it, and a volunteer will contact you within a few days with bank transfer or cash pickup details.</p>
+
+        <form id="donate-form" class="paper-form" novalidate>
+          <div class="field-row">
+            <div class="field">
+              <label for="d-name">Full name</label>
+              <input type="text" id="d-name" name="name" required>
+            </div>
+            <div class="field">
+              <label for="d-amount">Pledge amount (PKR)</label>
+              <input type="number" id="d-amount" name="amount" min="100" step="50" required>
+            </div>
+          </div>
+          <div class="field-row">
+            <div class="field">
+              <label for="d-email">Email</label>
+              <input type="email" id="d-email" name="email" required>
+            </div>
+            <div class="field">
+              <label for="d-phone">Phone</label>
+              <input type="tel" id="d-phone" name="phone">
+            </div>
+          </div>
+          <div class="field">
+            <label for="d-purpose">This pledge is for</label>
+            <select id="d-purpose" name="purpose">
+              <option>Wherever it's needed most</option>
+              <option>Restocking an existing lane</option>
+              <option>Building a new lane</option>
+              <option>The student writing desk</option>
+              <option>In-kind books, not cash</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="d-note">Note (optional)</label>
+            <textarea id="d-note" name="note" style="min-height:90px;" placeholder="Anything you'd like us to know"></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Send Pledge</button>
+          <p class="form-note" style="margin-top:14px;">Fields marked required must be filled before sending.</p>
+        </form>
+        <div class="confirm"></div>
+      </div>
+
+      <div>
+        <p class="eyebrow">Other ways to give</p>
+        <h2>No card needed.</h2>
+        <div class="grid" style="gap:16px;margin-top:20px;">
+          <div class="card">
+            <h3 style="font-size:1.05rem;">Bank transfer</h3>
+            <p style="margin-bottom:4px;">Account title: <strong>Booklane RYK Trust</strong></p>
+            <p style="margin-bottom:4px;">Bank: <em>[add your bank name]</em></p>
+            <p style="margin:0;">Account / IBAN: <em>[add account number]</em></p>
+          </div>
+          <div class="card">
+            <h3 style="font-size:1.05rem;">Mobile wallet</h3>
+            <p style="margin:0;">JazzCash / Easypaisa: <em>[add wallet number]</em> — send us a screenshot at <a href="mailto:hello@booklaneryk.org">hello@booklaneryk.org</a> so we can log it against a lane.</p>
+          </div>
+          <div class="card">
+            <h3 style="font-size:1.05rem;">Donate books, not money</h3>
+            <p style="margin:0;">Drop gently used books at any lane, or message us to arrange pickup for larger donations.</p>
+          </div>
+          <div class="card">
+            <h3 style="font-size:1.05rem;">Give your time</h3>
+            <p style="margin:0;">We need volunteers to restock lanes, run reading circles, and edit student submissions. Write to us if an hour a week works for you.</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="foot-grid">
+      <div>
+        <h4>Booklane RYK</h4>
+        <p style="max-width:32ch;color:rgba(241,233,216,.75);">A volunteer reading initiative building free book lanes and publishing student writing across Rahim Yar Khan.</p>
+      </div>
+      <div>
+        <h4>Explore</h4>
+        <ul>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="mission.html">Our Mission</a></li>
+          <li><a href="gallery.html">Project Gallery</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Take Part</h4>
+        <ul>
+          <li><a href="submit.html">Submit an Essay</a></li>
+          <li><a href="donate.html">Donate</a></li>
+          <li><a href="mailto:hello@booklaneryk.org">hello@booklaneryk.org</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <span>© 2026 Booklane RYK</span>
+      <span>Rahim Yar Khan, Punjab, Pakistan</span>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
