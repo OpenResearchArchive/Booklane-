@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Our Mission — Booklane RYK</title>
+<meta name="description" content="Why Booklane RYK exists and the goals guiding our book lanes, reading circles and student writing programme.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@500;600;700&family=Work+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap header-row">
+    <a href="index.html" class="brand">
+      <span class="mark"><span>Booklane</span> RYK</span>
+      <span class="sub">Rahim Yar Khan · Reading Initiative</span>
+    </a>
+    <button class="nav-toggle" aria-expanded="false" aria-label="Toggle navigation">☰</button>
+    <ul class="shelf">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="mission.html" class="active">Mission</a></li>
+      <li><a href="donate.html">Donate</a></li>
+      <li><a href="submit.html">Write&nbsp;With&nbsp;Us</a></li>
+      <li><a href="gallery.html">Gallery</a></li>
+    </ul>
+  </div>
+</header>
+
+<main>
+
+  <section style="padding-top:64px;">
+    <div class="wrap">
+      <p class="eyebrow">Our mission</p>
+      <h1>Put a book, and a byline, within reach of every student in RYK.</h1>
+      <p class="lede">We exist to close two gaps at once: the distance between a household and its nearest book, and the distance between a student writer and their first real reader.</p>
+    </div>
+  </section>
+
+  <section class="section-alt">
+    <div class="wrap">
+      <p class="eyebrow">Our four pillars</p>
+      <h2>What we're actually trying to do.</h2>
+      <div class="grid grid-2" style="margin-top:32px;">
+        <div class="card raised">
+          <p class="callnumber">PILLAR 01</p>
+          <h3 style="margin-top:10px;">Access before everything</h3>
+          <p>No membership card, no fee, no waiting list. If a book lane is nearby, anyone should be able to walk up and take a book the same day.</p>
+        </div>
+        <div class="card raised">
+          <p class="callnumber">PILLAR 02</p>
+          <h3 style="margin-top:10px;">A real audience for student writers</h3>
+          <p>Every essay and story we publish is read by people outside the writer's own classroom — neighbours, other students, and visitors to this site.</p>
+        </div>
+        <div class="card raised">
+          <p class="callnumber">PILLAR 03</p>
+          <h3 style="margin-top:10px;">Reading in the languages we speak</h3>
+          <p>Urdu, Saraiki and English all sit on the same shelf. We don't treat local languages as a lesser section of the lane.</p>
+        </div>
+        <div class="card raised">
+          <p class="callnumber">PILLAR 04</p>
+          <h3 style="margin-top:10px;">Built and maintained locally</h3>
+          <p>Every lane has a nearby shopkeeper, family or student group that looks after it. Nothing here is meant to run from far away.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap" style="display:grid;grid-template-columns:1fr 1fr;gap:48px;align-items:start;">
+      <div>
+        <p class="eyebrow">Where we're headed</p>
+        <h2>The next stretch of lane.</h2>
+        <p class="lede">These are the goals we're currently raising funds and volunteer hours toward.</p>
+      </div>
+      <div class="grid" style="gap:16px;">
+        <div class="card" style="display:flex;justify-content:space-between;gap:16px;align-items:center;">
+          <div><h3 style="font-size:1.05rem;margin:0 0 4px;">10 new book lanes</h3><p style="margin:0;color:var(--ink-70);font-size:.95rem;">across neighbourhoods that currently have none</p></div>
+          <span class="callnumber">GOAL</span>
+        </div>
+        <div class="card" style="display:flex;justify-content:space-between;gap:16px;align-items:center;">
+          <div><h3 style="font-size:1.05rem;margin:0 0 4px;">A printed annual anthology</h3><p style="margin:0;color:var(--ink-70);font-size:.95rem;">collecting the year's best student essays</p></div>
+          <span class="callnumber">GOAL</span>
+        </div>
+        <div class="card" style="display:flex;justify-content:space-between;gap:16px;align-items:center;">
+          <div><h3 style="font-size:1.05rem;margin:0 0 4px;">Weekend reading circles in 5 more schools</h3><p style="margin:0;color:var(--ink-70);font-size:.95rem;">led by trained student volunteers</p></div>
+          <span class="callnumber">GOAL</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-ink">
+    <div class="wrap" style="text-align:center;">
+      <p class="eyebrow">Help us get there</p>
+      <h2>None of this runs on good intentions alone.</h2>
+      <div style="display:flex;gap:14px;justify-content:center;margin-top:24px;flex-wrap:wrap;">
+        <a href="donate.html" class="btn btn-marigold">Donate to a Lane</a>
+        <a href="submit.html" class="btn" style="border-color:var(--paper);color:var(--paper);">Submit Your Writing</a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="foot-grid">
+      <div>
+        <h4>Booklane RYK</h4>
+        <p style="max-width:32ch;color:rgba(241,233,216,.75);">A volunteer reading initiative building free book lanes and publishing student writing across Rahim Yar Khan.</p>
+      </div>
+      <div>
+        <h4>Explore</h4>
+        <ul>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="mission.html">Our Mission</a></li>
+          <li><a href="gallery.html">Project Gallery</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Take Part</h4>
+        <ul>
+          <li><a href="submit.html">Submit an Essay</a></li>
+          <li><a href="donate.html">Donate</a></li>
+          <li><a href="mailto:hello@booklaneryk.org">hello@booklaneryk.org</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <span>© 2026 Booklane RYK</span>
+      <span>Rahim Yar Khan, Punjab, Pakistan</span>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
