@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Write With Us — Booklane RYK</title>
+<meta name="description" content="Submit an essay, article or story to Booklane RYK student writing desk.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@500;600;700&family=Work+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap header-row">
+    <a href="index.html" class="brand">
+      <span class="mark"><span>Booklane</span> RYK</span>
+      <span class="sub">Rahim Yar Khan · Reading Initiative</span>
+    </a>
+    <button class="nav-toggle" aria-expanded="false" aria-label="Toggle navigation">☰</button>
+    <ul class="shelf">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="mission.html">Mission</a></li>
+      <li><a href="donate.html">Donate</a></li>
+      <li><a href="submit.html" class="active">Write&nbsp;With&nbsp;Us</a></li>
+      <li><a href="gallery.html">Gallery</a></li>
+    </ul>
+  </div>
+</header>
+
+<main>
+
+  <section style="padding-top:64px;">
+    <div class="wrap">
+      <p class="eyebrow">Student writing desk</p>
+      <h1>Your essay deserves more than one reader.</h1>
+      <p class="lede">We publish essays, articles, short stories and reflections by student writers from schools and colleges across Rahim Yar Khan. Submissions are read by volunteer editors and shared on this site and, where possible, in our printed anthology.</p>
+    </div>
+  </section>
+
+  <section class="section-alt">
+    <div class="wrap">
+      <div class="grid grid-3">
+        <div class="card raised">
+          <p class="callnumber">STEP 01</p>
+          <h3 style="margin-top:10px;">Write it</h3>
+          <p>In Urdu, Saraiki or English. 300–1,500 words works best for essays and articles; stories can run longer.</p>
+        </div>
+        <div class="card raised">
+          <p class="callnumber">STEP 02</p>
+          <h3 style="margin-top:10px;">Send it below</h3>
+          <p>Paste your writing directly, or attach a document. Include your name, school and a way to reach you.</p>
+        </div>
+        <div class="card raised">
+          <p class="callnumber">STEP 03</p>
+          <h3 style="margin-top:10px;">Hear back</h3>
+          <p>A volunteer editor reads every submission and replies by email — usually within two to three weeks.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap" style="max-width:760px;">
+      <p class="eyebrow">Submit your work</p>
+      <h2>Fill in the form below.</h2>
+
+      <form id="submission-form" class="paper-form" novalidate>
+        <div class="field-row">
+          <div class="field">
+            <label for="s-name">Full name</label>
+            <input type="text" id="s-name" name="name" required>
+          </div>
+          <div class="field">
+            <label for="s-age">Age / grade or year</label>
+            <input type="text" id="s-age" name="grade" placeholder="e.g. Grade 9, or 2nd year">
+          </div>
+        </div>
+
+        <div class="field-row">
+          <div class="field">
+            <label for="s-school">School or college</label>
+            <input type="text" id="s-school" name="school" required>
+          </div>
+          <div class="field">
+            <label for="s-email">Email</label>
+            <input type="email" id="s-email" name="email" required>
+          </div>
+        </div>
+
+        <div class="field-row">
+          <div class="field">
+            <label for="s-type">Type of writing</label>
+            <select id="s-type" name="type">
+              <option>Essay</option>
+              <option>Article</option>
+              <option>Short story</option>
+              <option>Poem</option>
+              <option>Other</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="s-lang">Language</label>
+            <select id="s-lang" name="language">
+              <option>English</option>
+              <option>Urdu</option>
+              <option>Saraiki</option>
+              <option>Other</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="field">
+          <label for="s-title">Title of the piece</label>
+          <input type="text" id="s-title" name="title" required>
+        </div>
+
+        <div class="field">
+          <label for="s-body">Paste your writing here</label>
+          <textarea id="s-body" name="body" placeholder="Paste your essay or story text here…" required></textarea>
+        </div>
+
+        <div class="field">
+          <label for="s-file">Or attach a file instead (.pdf, .doc, .docx)</label>
+          <input type="file" id="s-file" name="file" accept=".pdf,.doc,.docx">
+        </div>
+
+        <button type="submit" class="btn btn-primary">Submit Writing</button>
+        <p class="form-note" style="margin-top:14px;">By submitting, you agree that Booklane RYK may publish this piece on this site and in print, with your name credited.</p>
+      </form>
+      <div class="confirm"></div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="foot-grid">
+      <div>
+        <h4>Booklane RYK</h4>
+        <p style="max-width:32ch;color:rgba(241,233,216,.75);">A volunteer reading initiative building free book lanes and publishing student writing across Rahim Yar Khan.</p>
+      </div>
+      <div>
+        <h4>Explore</h4>
+        <ul>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="mission.html">Our Mission</a></li>
+          <li><a href="gallery.html">Project Gallery</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Take Part</h4>
+        <ul>
+          <li><a href="submit.html">Submit an Essay</a></li>
+          <li><a href="donate.html">Donate</a></li>
+          <li><a href="mailto:hello@booklaneryk.org">hello@booklaneryk.org</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <span>© 2026 Booklane RYK</span>
+      <span>Rahim Yar Khan, Punjab, Pakistan</span>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
